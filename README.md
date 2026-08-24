@@ -4,7 +4,7 @@
 
 # `YUAN.EXE`
 
-### `a small human trying to understand computers`
+### `a small human trying to understand agents`
 
 `STATUS: LEARNING` &nbsp; `LEVEL: 01` &nbsp; `BUGS: UNKNOWN`
 
@@ -19,8 +19,8 @@
 ║  BOOT SEQUENCE                                               ║
 ║                                                              ║
 ║  user      : nothingyuancando                                ║
-║  class     : beginner developer                              ║
-║  current   : learning the basics                             ║
+║  class     : agent beginner                                  ║
+║  current   : learning how agents work                        ║
 ║  inventory : curiosity, stubbornness, too many tabs          ║
 ║                                                              ║
 ║  ██████░░░░░░░░░░░░  knowledge loading...                    ║
@@ -32,50 +32,52 @@
 ```text
 [LOG_0001]
 
-系统已启动。
-正在学习如何把脑子里的想法，变成真的能运行的东西。
+System online.
+Learning how to turn ideas into useful agents.
 
 archive/
-├── notes        // 还没完全理解的东西
-├── experiments  // 试试看会发生什么
-├── errors       // 失败也是运行结果
-└── wins         // 偶尔成功一下
+├── notes        // things not fully understood yet
+├── experiments  // let us see what happens
+├── errors       // failure is also a result
+└── wins         // occasional successful runs
 
-目标：让这个文件夹慢慢变得有东西。
+Goal: make this folder slowly become something.
 ```
 
 ## `CURRENT MISSION`
 
 ```text
-[x] 打开编辑器
-[x] 学会基本的 Git 操作
-[ ] 搞懂 JavaScript 到底在做什么
-[ ] 完成第一个真正的项目
-[ ] 把项目部署到互联网上
-[ ] 看懂别人的代码而不当场宕机
+[x] Open the editor
+[x] Survive the first Git push
+[ ] Understand how an agent loop works
+[ ] Build a useful tool-using agent
+[ ] Connect an agent to real data
+[ ] Deploy something that does not immediately crash
 ```
 
-## `SKILL TREE`
+## `AGENT STACK`
 
 ```text
-HTML        ██████░░░░  60%   [unlocked]
-CSS         ████░░░░░░  40%   [learning]
-JavaScript  ██░░░░░░░░  20%   [loading]
-Git         ███░░░░░░░  30%   [survived first push]
-Linux       ░░░░░░░░░░   5%   [boss fight]
+Python       ███░░░░░░░  30%   [learning]
+LLM APIs     ██░░░░░░░░  20%   [loading]
+Prompting   ███░░░░░░░  30%   [experimenting]
+Tool calling ██░░░░░░░░  20%   [unlocking]
+RAG          ░░░░░░░░░░   5%   [boss fight]
+MCP          ░░░░░░░░░░   5%   [curious]
+Git          ███░░░░░░░  30%   [survived first push]
 ```
 
-`HTML` · `CSS` · `JavaScript` · `Git` · `Linux`
+`Python` · `LLM APIs` · `Prompting` · `Tool Calling` · `RAG` · `MCP` · `Git`
 
 ## `EXPERIMENTS`
 
 | ID | Project | Status |
 | --- | --- | --- |
 | `001` | Personal homepage | `under construction` |
-| `002` | First real project | `not spawned yet` |
+| `002` | First agent experiment | `not spawned yet` |
 | `003` | Something weird and useful | `loading...` |
 
-项目会在完成后逐个解锁。现在的空白，是存档刚建立时的正常状态。
+Projects will unlock one at a time. The save file has only just been created.
 
 ## `KNOWN ISSUES`
 
