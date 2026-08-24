@@ -35,6 +35,25 @@ This profile is a public workshop for notes, experiments, mistakes, and the occa
   </tr>
 </table>
 
+## Visual Log
+
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <img alt="A beginner teaching a confused robot" src="./assets/agent-learning.png" width="100%">
+      <p align="center"><code>teach the robot</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <img alt="A robot walking around a tool loop" src="./assets/agent-loop.png" width="100%">
+      <p align="center"><code>tool call loop</code></p>
+    </td>
+    <td width="33%" valign="top">
+      <img alt="A beginner offering a snack to a sleepy computer" src="./assets/debug-snack.png" width="100%">
+      <p align="center"><code>debug with snacks</code></p>
+    </td>
+  </tr>
+</table>
+
 ## Current Mission
 
 ```text
