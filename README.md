@@ -94,6 +94,17 @@
 
 <p align="center"><sub>灵蛇吞食修炼之日，昼夜不舍 · a snake devouring my cultivation days</sub></p>
 
+## 捌 · 奖杯陈列 · Trophy Wall
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=nothingyuancando&theme=onedark">
+    <img alt="GitHub profile trophies" src="https://github-profile-trophy.vercel.app/?username=nothingyuancando&theme=flat" width="100%">
+  </picture>
+</p>
+
+<p align="center"><sub>目前以参与奖为主，架子先摆好，奖杯慢慢攒 · mostly participation trophies, but the shelf is ready</sub></p>
+
 ---
 
 <div align="center">
