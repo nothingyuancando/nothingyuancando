@@ -10,12 +10,6 @@
 </picture>
 
 <p>
-  <img src="https://komarev.com/ghpvc/?username=nothingyuancando&style=for-the-badge&color=blueviolet&label=路过人数" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/nothingyuancando?style=for-the-badge&label=%E5%85%B3%E6%B3%A8%E8%80%85&color=FF5F6D" alt="followers" />
-  <img src="https://img.shields.io/github/stars/nothingyuancando?style=for-the-badge&label=%E6%98%9F%E6%A0%87&color=FFC371" alt="stars" />
-</p>
-
-<p>
   <sub>数据卡 · card by <a href="https://github.com/IceEnd/github-immortality">github-immortality</a></sub>
 </p>
 
@@ -28,30 +22,41 @@
   关于 · About
 </h2>
 
-你好，我是 Yuan，agent 赛道上的新手：模型、工具、记忆，还有那些让 agent 真正有用的小决策，都在学习清单上。
+你好，我是 Yuan，agent 赛道上的新手。模型、工具、记忆，还有那些让 agent 真正有用的小决策，都在学习清单上。这个页面是我的公开工作台——笔记、实验、翻车记录，偶尔也有一次意外成功。
 
-这个页面是我的公开工作台——笔记、实验、翻车记录，偶尔也有一次意外成功。
+<table border="0" cellspacing="0" cellpadding="0" width="100%">
+<tr>
+<td width="34%" valign="top">
 
-<h2 align="center">
-  <img src="https://media.giphy.com/media/jSKBmKkvo2dPQQtsR1/giphy.gif" width="28" height="28" style="vertical-align: middle;"/>
-  在练什么 · Current Practice
-</h2>
+> ### 🤖 Agent 系统
+>
+> 🧠 学习 **Agent Loop 运行机制**
+> 🔁 实践 **工具调用与 Function Calling**
+> 📤 尝试 **结构化输出**
+> 💾 摸索 **Agent 的记忆机制**
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>Agent Loops</h3>
-      <p>规划、调用工具、结构化输出——研究 agent 怎么从"我想做"走到"做完了"。</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Useful Context</h3>
-      <p>RAG、记忆、检索——在对的时间给模型对的信息。</p>
-    </td>
-    <td width="33%" valign="top">
-      <h3>Small Experiments</h3>
-      <p>先做小东西，留下真正有用的部分。</p>
-    </td>
-  </tr>
+</td>
+<td width="33%" valign="top">
+
+> ### 🔍 上下文工程
+>
+> 📚 入门 **RAG 检索增强**
+> 🗂️ 关注 **检索与召回质量**
+> 📝 练习 **提示词与上下文组织**
+> ⏰ 信条：**对的时间，给模型对的信息**
+
+</td>
+<td width="33%" valign="top">
+
+> ### 🧪 实验方法
+>
+> 🛠️ 先造 **能跑的小东西**
+> 🧯 保留 **每一次翻车记录**
+> ♻️ 只留 **真正有用的部分**
+> 🎉 期待 **偶尔的意外成功**
+
+</td>
+</tr>
 </table>
 
 <h2 align="center">
@@ -70,18 +75,18 @@
 
 <h2 align="center">
   <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28" height="28" style="vertical-align: middle;"/>
-  工具箱 · Toolbox
+  技能与工具 · Skills & Tools
 </h2>
 
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=python,fastapi,docker,git,github&perline=9" alt="skills" />
+</div>
+
 <p align="center">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
   <img alt="LLM APIs" src="https://img.shields.io/badge/LLM%20APIs-111318?style=flat-square&logo=openai&logoColor=white">
   <img alt="LangChain" src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white">
   <img alt="LlamaIndex" src="https://img.shields.io/badge/LlamaIndex-6B4EFF?style=flat-square&logo=llama&logoColor=white">
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
   <img alt="MCP" src="https://img.shields.io/badge/MCP-2D3748?style=flat-square&logo=protocols&logoColor=white">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 </p>
 
 <h2 align="center">
