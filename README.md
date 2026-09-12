@@ -84,6 +84,16 @@
 > 灵茶依赖缺失 · coffee dependency is missing
 ```
 
+## 柒 · 灵蛇食灵 · Spirit Snake
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nothingyuancando/nothingyuancando/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nothingyuancando/nothingyuancando/output/github-contribution-grid-snake.svg">
+  <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/nothingyuancando/nothingyuancando/output/github-contribution-grid-snake.svg" width="100%">
+</picture>
+
+<p align="center"><sub>灵蛇吞食修炼之日，昼夜不舍 · a snake devouring my cultivation days</sub></p>
+
 ---
 
 <div align="center">
