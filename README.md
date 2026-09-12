@@ -1,60 +1,60 @@
 <div align="center">
 
 <p>
-  <em>「凡人之躯，亦有问道之心。」</em><br>
-  An ordinary person, walking the long road of agent cultivation — one commit at a time.
+  <em>「等级不高，排面要够。」</em><br>
+  Low level, high production value.
 </p>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-immortality.vercel.app/api?username=nothingyuancando&theme=dark">
-  <img alt="Yuan 的 GitHub 修炼进度" src="https://github-immortality.vercel.app/api?username=nothingyuancando&theme=light">
+  <img alt="Yuan 的 GitHub 数据卡" src="https://github-immortality.vercel.app/api?username=nothingyuancando&theme=light">
 </picture>
 
 <p>
-  <sub>GitHub 之旅，绘作一部修仙录 · card by <a href="https://github.com/IceEnd/github-immortality">github-immortality</a></sub>
+  <sub>数据卡 · card by <a href="https://github.com/IceEnd/github-immortality">github-immortality</a></sub>
 </p>
 
 </div>
 
 ---
 
-## 壹 · 自述 · About
+## 壹 · 关于 · About
 
-在下 Yuan，一介散修，主修**智能体之术**——模型、工具、记忆，以及那些让智能体真正有用的微小决策。
+你好，我是 Yuan，agent 赛道上的新手：模型、工具、记忆，还有那些让 agent 真正有用的小决策，都在学习清单上。
 
-此处便是我的洞府：公开的修炼记录，笔记、实验、失败，以及偶尔一次成功的运行。
+这个页面是我的公开工作台——笔记、实验、翻车记录，偶尔也有一次意外成功。
 
-## 贰 · 修行方向 · Current Practice
+## 贰 · 在练什么 · Current Practice
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>御器之术 · Agent Loops</h3>
-      <p>规划、调用工具、结构化输出——参悟一个智能体如何从意图走到行动。</p>
+      <h3>Agent Loops</h3>
+      <p>规划、调用工具、结构化输出——研究 agent 怎么从"我想做"走到"做完了"。</p>
     </td>
     <td width="33%" valign="top">
-      <h3>聚灵之阵 · Useful Context</h3>
-      <p>RAG、记忆、检索——在对的时机，给模型对的信息。</p>
+      <h3>Useful Context</h3>
+      <p>RAG、记忆、检索——在对的时间给模型对的信息。</p>
     </td>
     <td width="33%" valign="top">
-      <h3>筑基小术 · Small Experiments</h3>
-      <p>先炼小东西，再留下真正有用的部分。</p>
+      <h3>Small Experiments</h3>
+      <p>先做小东西，留下真正有用的部分。</p>
     </td>
   </tr>
 </table>
 
-## 叁 · 修炼任务 · Current Mission
+## 叁 · 当前任务 · Current Mission
 
 ```text
-[x] 打开编辑器 · Open the editor
-[x] 渡过第一次 Git push · Survive the first push
-[ ] 参悟 agent loop · Understand an agent loop
-[ ] 炼出第一件法宝 · Build a tool-using agent
-[ ] 打通虚实界限 · Connect an agent to real data
-[ ] 出关不炸 · Deploy something that doesn't crash
+[x] 打开编辑器
+[x] 活过第一次 Git push
+[ ] 搞懂一个 agent loop
+[ ] 做一个会用工具的 agent
+[ ] 让 agent 连上真实数据
+[ ] 部署一个不会当场崩掉的东西
 ```
 
-## 肆 · 法宝囊 · Toolbox
+## 肆 · 工具箱 · Toolbox
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
@@ -67,24 +67,24 @@
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 </p>
 
-## 伍 · 秘境试炼 · Trials
+## 伍 · 实验记录 · Experiments
 
-| 编号 | 秘境 | 状态 |
+| 编号 | 项目 | 状态 |
 | --- | --- | --- |
-| `001` | 本命洞府（个人主页） | `已开启` |
-| `002` | 第一次炼器（agent 实验） | `尚未启程` |
-| `003` | 某个又怪又有用的小秘境 | `推演中` |
+| `001` | 个人主页 | `已完成，有卡了` |
+| `002` | 第一个 agent 实验 | `还没开工` |
+| `003` | 某个又怪又有用的东西 | `还在路线图上` |
 
-## 陆 · 走火入魔录 · Known Demonic Backfires
+## 陆 · 已知问题 · Known Issues
 
 ```text
-> 偶尔心魔丛生 · sometimes gets distracted
-> 有时忘了此法为何生效 · forgets why the code worked
-> 文档参悟功法仍在安装中 · documentation reading skill still installing
-> 灵茶依赖缺失 · coffee dependency is missing
+> 有时候会走神
+> 偶尔忘了代码为什么能跑
+> 读文档的技能还在安装中
+> 咖啡依赖缺失
 ```
 
-## 柒 · 灵蛇食灵 · Spirit Snake
+## 柒 · 宠物蛇喂食 · Feed the Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nothingyuancando/nothingyuancando/output/github-contribution-grid-snake-dark.svg">
@@ -92,9 +92,9 @@
   <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/nothingyuancando/nothingyuancando/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
-<p align="center"><sub>灵蛇吞食修炼之日，昼夜不舍 · a snake devouring my cultivation days</sub></p>
+<p align="center"><sub>这条蛇吃贡献绿点为生，最近在节食 · a snake that eats my commits, currently on a diet</sub></p>
 
-## 捌 · 奖杯陈列 · Trophy Wall
+## 捌 · 奖杯墙 · Trophy Wall
 
 <p align="center">
   <picture>
@@ -109,7 +109,7 @@
 
 <div align="center">
 
-**慢慢修，勤验证，留住有用的部分。**<br>
+**慢慢来，勤验证，留住有用的部分。**<br>
 <sub>Build patiently. Verify often. Keep the useful parts.</sub>
 
 </div>
