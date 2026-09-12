@@ -18,13 +18,13 @@
 
 ---
 
-## 壹 · 关于 · About
+## 关于 · About
 
 你好，我是 Yuan，agent 赛道上的新手：模型、工具、记忆，还有那些让 agent 真正有用的小决策，都在学习清单上。
 
 这个页面是我的公开工作台——笔记、实验、翻车记录，偶尔也有一次意外成功。
 
-## 贰 · 在练什么 · Current Practice
+## 在练什么 · Current Practice
 
 <table>
   <tr>
@@ -43,7 +43,7 @@
   </tr>
 </table>
 
-## 叁 · 当前任务 · Current Mission
+## 当前任务 · Current Mission
 
 ```text
 [x] 打开编辑器
@@ -54,7 +54,7 @@
 [ ] 部署一个不会当场崩掉的东西
 ```
 
-## 肆 · 工具箱 · Toolbox
+## 工具箱 · Toolbox
 
 <p>
   <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
@@ -67,7 +67,7 @@
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white">
 </p>
 
-## 伍 · 实验记录 · Experiments
+## 实验记录 · Experiments
 
 | 编号 | 项目 | 状态 |
 | --- | --- | --- |
@@ -75,7 +75,7 @@
 | `002` | 第一个 agent 实验 | `还没开工` |
 | `003` | 某个又怪又有用的东西 | `还在路线图上` |
 
-## 陆 · 已知问题 · Known Issues
+## 已知问题 · Known Issues
 
 ```text
 > 有时候会走神
@@ -84,7 +84,7 @@
 > 咖啡依赖缺失
 ```
 
-## 柒 · 宠物蛇喂食 · Feed the Snake
+## 宠物蛇喂食 · Feed the Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nothingyuancando/nothingyuancando/output/github-contribution-grid-snake-dark.svg">
@@ -94,7 +94,7 @@
 
 <p align="center"><sub>这条蛇吃贡献绿点为生，最近在节食 · a snake that eats my commits, currently on a diet</sub></p>
 
-## 捌 · 奖杯墙 · Trophy Wall
+## 奖杯墙 · Trophy Wall
 
 <p align="center">
   <picture>
@@ -107,9 +107,4 @@
 
 ---
 
-<div align="center">
-
-**慢慢来，勤验证，留住有用的部分。**<br>
-<sub>Build patiently. Verify often. Keep the useful parts.</sub>
-
-</div>
+> 页面持续施工中，路过别嫌乱
