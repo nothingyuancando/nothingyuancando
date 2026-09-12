@@ -8,6 +8,17 @@
   <img alt="Build: in progress" src="https://img.shields.io/badge/Build-In%20Progress-FF6B5B?style=for-the-badge&logo=git&logoColor=white">
 </p>
 
+<p>
+  <a href="https://github.com/nothingyuancando/github-immortality" title="Cultivation card — self-deployed from the open-source project">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://yuan-immortality.vercel.app/api?username=nothingyuancando&theme=dark">
+      <img alt="Yuan's GitHub stats as a cultivation card" src="https://yuan-immortality.vercel.app/api?username=nothingyuancando&theme=light">
+    </picture>
+  </a>
+  <br>
+  <sub>my GitHub journey, visualized as a cultivation path · 修炼中</sub>
+</p>
+
 </div>
 
 ## Hello, I'm Yuan
