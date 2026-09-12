@@ -64,14 +64,12 @@
   当前任务 · Current Mission
 </h2>
 
-```text
-[x] 打开编辑器
-[x] 活过第一次 Git push
-[ ] 搞懂一个 agent loop
-[ ] 做一个会用工具的 agent
-[ ] 让 agent 连上真实数据
-[ ] 部署一个不会当场崩掉的东西
-```
+- [x] 🖥️ 打开编辑器
+- [x] 🙏 活过第一次 Git push
+- [ ] 🧠 搞懂一个 agent loop
+- [ ] 🛠️ 做一个会用工具的 agent
+- [ ] 🔌 让 agent 连上真实数据
+- [ ] 🚀 部署一个不会当场崩掉的东西
 
 <h2 align="center">
   <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="28" height="28" style="vertical-align: middle;"/>
@@ -94,23 +92,24 @@
   实验记录 · Experiments
 </h2>
 
-| 编号 | 项目 | 状态 |
-| --- | --- | --- |
-| `001` | 个人主页 | `已完成，有卡了` |
-| `002` | 第一个 agent 实验 | `还没开工` |
-| `003` | 某个又怪又有用的东西 | `还在路线图上` |
+| 编号 | 项目 | 进度 |
+| :---: | :--- | :---: |
+| `001` | 🏠 个人主页 | ![已完成](https://img.shields.io/badge/%E5%B7%B2%E5%AE%8C%E6%88%90-brightgreen?style=flat-square) |
+| `002` | 🧪 第一个 agent 实验 | ![还没开工](https://img.shields.io/badge/%E8%BF%98%E6%B2%A1%E5%BC%80%E5%B7%A5-9CA3AF?style=flat-square) |
+| `003` | 🌀 又怪又有用的东西 | ![路线图上](https://img.shields.io/badge/%E8%B7%AF%E7%BA%BF%E5%9B%BE%E4%B8%8A-FFC371?style=flat-square) |
 
 <h2 align="center">
   <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="28" height="28" style="vertical-align: middle;"/>
   已知问题 · Known Issues
 </h2>
 
-```text
-> 有时候会走神
-> 偶尔忘了代码为什么能跑
-> 读文档的技能还在安装中
-> 咖啡依赖缺失
-```
+> 🌀 **有时候会走神** · 注意力是散装的，偶尔洒一地
+>
+> 🤷 **忘了代码为什么能跑** · 暂按玄学处理，挺好使
+>
+> 📖 **读文档技能还在安装中** · 进度条长期卡在 42%
+>
+> ☕ **咖啡依赖缺失** · 这个包装不上，试过好多源了
 
 <h2 align="center">
   <img src="https://media.giphy.com/media/Sqlj82Xy4eZKSU9iVM/giphy.gif" width="28" height="28" style="vertical-align: middle;"/>
