@@ -10,7 +10,7 @@
 </picture>
 
 <p>
-  <sub>数据卡 · card by <a href="https://github.com/IceEnd/github-immortality">github-immortality</a></sub>
+  <sub> card by <a href="https://github.com/IceEnd/github-immortality">github-immortality</a></sub>
 </p>
 
 </div>
@@ -20,7 +20,7 @@
 
 <h2 align="center">
   <img src="https://media.giphy.com/media/Sqlj82Xy4eZKSU9iVM/giphy.gif" width="28" height="28" style="vertical-align: middle;"/>
-  宠物蛇喂食 · Feed the Snake
+   Feed the Snake
 </h2>
 
 <picture>
@@ -29,5 +29,5 @@
   <img alt="GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/nothingyuancando/nothingyuancando/output/github-contribution-grid-snake.svg" width="100%">
 </picture>
 
-<p align="center"><sub>这条蛇吃贡献绿点为生，最近在节食 · a snake that eats my commits, currently on a diet</sub></p>
+<p align="center"><sub> a snake that eats my commits, currently on a diet</sub></p>
 
