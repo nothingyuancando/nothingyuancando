@@ -1,0 +1,200 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="300" viewBox="0 0 850 300" role="img" aria-labelledby="title desc">
+  <title id="title">赛博炼丹房</title>
+  <desc id="desc">Prompt、Bug 和 TODO 飞入炼丹炉，经过 GPT 炼制后变成 Code、Commit 和 README。</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop class="bg-a" offset="0" stop-color="#17131f"/>
+      <stop class="bg-b" offset="1" stop-color="#241626"/>
+    </linearGradient>
+    <linearGradient id="hot" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff5f6d"/>
+      <stop offset="1" stop-color="#ffc371"/>
+    </linearGradient>
+    <linearGradient id="metal" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#493346"/>
+      <stop offset="1" stop-color="#211822"/>
+    </linearGradient>
+    <radialGradient id="core">
+      <stop offset="0" stop-color="#fff8dc"/>
+      <stop offset="0.38" stop-color="#ffc371"/>
+      <stop offset="1" stop-color="#ff5f6d"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#ffb36a" stroke-opacity=".07"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="9"/>
+    </filter>
+    <clipPath id="window"><rect x="12" y="12" width="826" height="276" rx="18"/></clipPath>
+  </defs>
+
+  <style>
+    .frame { fill: url(#bg); stroke: #573544; stroke-width: 1.5; }
+    .chrome { fill: #211824; }
+    .muted { fill: #a995a5; }
+    .primary { fill: #f8edf3; }
+    .line { stroke: #765061; }
+    .chip { fill: #281d2a; stroke: #755061; stroke-width: 1.2; }
+    .output-chip { fill: #2a2024; stroke: #ff9b69; stroke-width: 1.2; }
+    .floor { fill: #ffc371; opacity: .055; }
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", "Noto Sans SC", monospace; }
+    .title { font-size: 15px; font-weight: 700; letter-spacing: 2px; }
+    .tiny { font-size: 10px; letter-spacing: 1.3px; }
+    .label { font-size: 12px; font-weight: 700; }
+    .motto { font-family: "Noto Serif SC", "Songti SC", serif; font-size: 13px; letter-spacing: 4px; }
+    .ingredient { opacity: 0; animation: feed 9s ease-in-out infinite; }
+    .ingredient.i2 { animation-delay: .65s; }
+    .ingredient.i3 { animation-delay: 1.3s; }
+    .result { opacity: 0; animation: emerge 9s ease-out infinite; }
+    .result.o2 { animation-delay: .65s; }
+    .result.o3 { animation-delay: 1.3s; }
+    .furnace { transform-box: fill-box; transform-origin: center; animation: rumble 9s ease-in-out infinite; }
+    .core { transform-box: fill-box; transform-origin: center; animation: pulse 1.15s ease-in-out infinite; }
+    .orbit { transform-origin: 425px 156px; animation: spin 6s linear infinite; }
+    .spark { opacity: 0; animation: spark 2.2s ease-out infinite; }
+    .spark.s2 { animation-delay: .7s; }
+    .spark.s3 { animation-delay: 1.35s; }
+    .smoke { opacity: 0; animation: smoke 3.1s ease-out infinite; }
+    .smoke.sm2 { animation-delay: 1s; }
+    .smoke.sm3 { animation-delay: 2s; }
+    .status { opacity: 0; }
+    .status.s1 { animation: status1 9s linear infinite; }
+    .status.s2 { animation: status2 9s linear infinite; }
+    .status.s3 { animation: status3 9s linear infinite; }
+    .scan { animation: scan 4s linear infinite; }
+    .cursor { animation: blink 1s steps(1) infinite; }
+    @keyframes feed {
+      0%, 4% { opacity: 0; transform: translateX(-18px); }
+      9%, 19% { opacity: 1; transform: translateX(0); }
+      31% { opacity: 1; transform: translateX(258px) scale(.78); }
+      34%, 100% { opacity: 0; transform: translateX(278px) scale(.45); }
+    }
+    @keyframes emerge {
+      0%, 54% { opacity: 0; transform: translateX(-55px) scale(.55); }
+      61%, 79% { opacity: 1; transform: translateX(0) scale(1); }
+      91%, 100% { opacity: 0; transform: translateX(22px); }
+    }
+    @keyframes rumble {
+      0%, 25%, 72%, 100% { transform: translate(0, 0); }
+      31%, 63% { transform: translate(-1px, 0); }
+      34%, 66% { transform: translate(1px, -1px); }
+      37%, 69% { transform: translate(0, 1px); }
+    }
+    @keyframes pulse { 0%, 100% { transform: scale(.9); opacity: .76; } 50% { transform: scale(1.12); opacity: 1; } }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @keyframes spark {
+      0%, 28% { opacity: 0; transform: translateY(8px) scale(.5); }
+      36% { opacity: 1; }
+      70%, 100% { opacity: 0; transform: translateY(-32px) scale(1.2); }
+    }
+    @keyframes smoke {
+      0%, 12% { opacity: 0; transform: translate(0, 6px) scale(.55); }
+      35% { opacity: .42; }
+      100% { opacity: 0; transform: translate(12px, -35px) scale(1.35); }
+    }
+    @keyframes status1 { 0%, 8%, 29%, 100% { opacity: 0; } 11%, 25% { opacity: 1; } }
+    @keyframes status2 { 0%, 29%, 56%, 100% { opacity: 0; } 33%, 52% { opacity: 1; } }
+    @keyframes status3 { 0%, 56%, 92%, 100% { opacity: 0; } 61%, 88% { opacity: 1; } }
+    @keyframes scan { from { transform: translateY(-30px); } to { transform: translateY(280px); } }
+    @keyframes blink { 50% { opacity: 0; } }
+    @media (prefers-color-scheme: light) {
+      .bg-a { stop-color: #fffaf7; }
+      .bg-b { stop-color: #fff0e8; }
+      .frame { stroke: #edc4b7; }
+      .chrome { fill: #fae5df; }
+      .primary { fill: #3e2832; }
+      .muted { fill: #896c78; }
+      .line { stroke: #d4a99d; }
+      .chip { fill: #fffaf8; stroke: #dcb5aa; }
+      .output-chip { fill: #fff7f1; }
+      #grid path { stroke-opacity: .15; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      * { animation: none !important; }
+      .ingredient, .result, .status.s3 { opacity: 1; }
+      .status.s1, .status.s2 { opacity: 0; }
+    }
+  </style>
+
+  <rect class="frame" x="12" y="12" width="826" height="276" rx="18"/>
+  <g clip-path="url(#window)">
+    <rect x="12" y="12" width="826" height="276" fill="url(#grid)"/>
+    <ellipse cx="425" cy="242" rx="190" ry="30" fill="#ff7b68" opacity=".08" filter="url(#soft)"/>
+    <rect class="scan" x="13" y="0" width="824" height="1" fill="#ffc371" opacity=".13"/>
+  </g>
+
+  <path class="chrome" d="M30 12h790a18 18 0 0 1 18 18v22H12V30a18 18 0 0 1 18-18Z"/>
+  <circle cx="33" cy="32" r="5" fill="#ff5f6d"/>
+  <circle cx="51" cy="32" r="5" fill="#ffc371"/>
+  <circle cx="69" cy="32" r="5" fill="#69db9b"/>
+  <text class="primary title" x="425" y="37" text-anchor="middle">CYBER ALCHEMY LAB · 赛博炼丹房</text>
+  <text class="muted tiny" x="31" y="72">RAW MATERIAL</text>
+  <text class="muted tiny" x="713" y="72">OUTPUT</text>
+
+  <g transform="translate(38 87)"><g class="ingredient i1">
+    <rect class="chip" width="128" height="34" rx="8"/>
+    <circle cx="17" cy="17" r="5" fill="#ff5f6d"/><text class="primary label" x="31" y="21">PROMPT</text>
+  </g></g>
+  <g transform="translate(38 134)"><g class="ingredient i2">
+    <rect class="chip" width="128" height="34" rx="8"/>
+    <path d="m13 12 9 10m0-10-9 10" stroke="#ffc371" stroke-width="2" stroke-linecap="round"/><text class="primary label" x="31" y="21">BUG</text>
+  </g></g>
+  <g transform="translate(38 181)"><g class="ingredient i3">
+    <rect class="chip" width="128" height="34" rx="8"/>
+    <rect x="12" y="12" width="10" height="10" rx="2" fill="none" stroke="#ff8b68" stroke-width="2"/><text class="primary label" x="31" y="21">TODO</text>
+  </g></g>
+
+  <path class="line" d="M183 151h86" fill="none" stroke-width="1.5" stroke-dasharray="4 7"/>
+  <path d="m264 145 9 6-9 6" fill="none" stroke="#ff9b69" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g class="furnace">
+    <path d="M382 119h86l-7 18h-72Z" fill="#372735" stroke="#795063" stroke-width="1.5"/>
+    <rect x="397" y="105" width="56" height="15" rx="7.5" fill="url(#hot)"/>
+    <path d="M388 136h74l13 84a14 14 0 0 1-14 16h-72a14 14 0 0 1-14-16Z" fill="url(#metal)" stroke="#8c5868" stroke-width="2"/>
+    <path d="M392 234l-9 17m75-17 9 17" stroke="#795063" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="425" cy="223" rx="43" ry="8" fill="#160f18" opacity=".6"/>
+    <circle cx="425" cy="173" r="34" fill="#17111b" stroke="#ff8c68" stroke-width="2"/>
+    <circle class="core" cx="425" cy="173" r="19" fill="url(#core)" filter="url(#glow)"/>
+    <text x="425" y="178" text-anchor="middle" fill="#3d1c27" font-size="13" font-weight="900">GPT</text>
+  </g>
+  <g class="orbit" fill="#ffc371">
+    <circle cx="425" cy="128" r="3"/><circle cx="425" cy="218" r="2"/>
+  </g>
+  <g fill="#ffc371" filter="url(#glow)">
+    <circle class="spark" cx="403" cy="130" r="2.5"/>
+    <circle class="spark s2" cx="425" cy="128" r="2"/>
+    <circle class="spark s3" cx="447" cy="132" r="2.5"/>
+  </g>
+  <g fill="none" stroke="#ffbb79" stroke-width="2">
+    <circle class="smoke" cx="411" cy="102" r="8"/>
+    <circle class="smoke sm2" cx="428" cy="96" r="10"/>
+    <circle class="smoke sm3" cx="444" cy="103" r="7"/>
+  </g>
+
+  <path class="line" d="M580 151h86" fill="none" stroke-width="1.5" stroke-dasharray="4 7"/>
+  <path d="m661 145 9 6-9 6" fill="none" stroke="#ff9b69" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <g transform="translate(684 87)"><g class="result o1">
+    <rect class="output-chip" width="128" height="34" rx="8"/>
+    <circle cx="17" cy="17" r="5" fill="#69db9b"/><text class="primary label" x="31" y="21">CODE</text>
+  </g></g>
+  <g transform="translate(684 134)"><g class="result o2">
+    <rect class="output-chip" width="128" height="34" rx="8"/>
+    <path d="m12 17 5 5 9-11" fill="none" stroke="#69db9b" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text class="primary label" x="34" y="21">COMMIT</text>
+  </g></g>
+  <g transform="translate(684 181)"><g class="result o3">
+    <rect class="output-chip" width="128" height="34" rx="8"/>
+    <path d="M13 10h10l4 4v10H13Z" fill="none" stroke="#69db9b" stroke-width="1.7"/><text class="primary label" x="34" y="21">README</text>
+  </g></g>
+
+  <g text-anchor="middle">
+    <text class="status s1 muted tiny" x="425" y="270">收集材料中 <tspan class="cursor">▋</tspan></text>
+    <text class="status s2" x="425" y="270" fill="#ff9c6b" font-size="11" letter-spacing="2">GPT 炼制中 · 正在消除幻觉</text>
+    <text class="status s3 primary motto" x="425" y="270">君子善假于 GPT 也</text>
+  </g>
+</svg>
