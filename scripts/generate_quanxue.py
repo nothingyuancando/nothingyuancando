@@ -21,8 +21,8 @@ credit=ImageFont.truetype(str(font_path),14)
 background=(250,249,246)
 ink=(55,62,71)
 accent=(235,87,104)
-rows=[('劝码',heading,accent,24),('作者：GPT',credit,ink,64)]
-y=104
+rows=[]
+y=24
 for paragraph in paragraphs:
     sentences=re.findall(r'[^；。！？!?;]+[；。！？!?;]?',paragraph)
     i=0
@@ -69,7 +69,7 @@ with output.open('wb') as stream:
             previous=current
     stream.write(b';')
 canvas.save('/tmp/quanma-final.png')
-Path('README.md').write_text('<div align="center">\n\n<img src="./assets/quanma.gif" width="850" alt="劝码 · 作者：GPT。逐字打出，逐行累积，播放一次后保留全文。" />\n\n</div>\n')
+Path('README.md').write_text('<div align="center">\n\n<img src="./assets/quanma.gif" width="850" alt="逐字打出，逐行累积的技术梗文章，播放一次后保留全文。" />\n\n</div>\n')
 # Decode the actual delivered animation, including all delta frames.
 with Image.open(output) as gif:
     assert gif.n_frames==frames
@@ -78,6 +78,6 @@ with Image.open(output) as gif:
     assert all(low==high for low,high in gif.convert('RGB').getextrema())
     gif.seek(gif.n_frames-1)
     assert ImageChops.difference(gif.convert('RGB'),previous.convert('RGB')).getbbox() is None
-assert ''.join(line for line,_,_,_ in rows[2:])==''.join(paragraphs)
+assert ''.join(line for line,_,_,_ in rows)==''.join(paragraphs)
 assert all(font.getlength(line) <= width-84 for line,font,_,_ in rows)
 print(f'Validated {frames} cumulative GIF frames; {width}×{height}; {output.stat().st_size//1024} KB; plays once.')
