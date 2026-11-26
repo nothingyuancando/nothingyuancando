@@ -15,21 +15,28 @@ candidates=[Path('/System/Library/Fonts/Hiragino Sans GB.ttc'),
 font_path=args.font or next((p for p in candidates if p.exists()), None)
 if not font_path:
     parser.error('Pass --font pointing to a font with Chinese glyphs.')
-body=ImageFont.truetype(str(font_path),20)
-heading=ImageFont.truetype(str(font_path),30)
+body=ImageFont.truetype(str(font_path),18)
+heading=ImageFont.truetype(str(font_path),28)
 credit=ImageFont.truetype(str(font_path),14)
 background=(250,249,246)
 ink=(55,62,71)
 accent=(235,87,104)
-rows=[('劝码',heading,accent,34),('作者：GPT',credit,ink,80)]
-y=132
+rows=[('劝码',heading,accent,24),('作者：GPT',credit,ink,64)]
+y=104
 for paragraph in paragraphs:
-    for line in re.findall(r'[^；。！？!?;]+[；。！？!?;]?',paragraph):
+    sentences=re.findall(r'[^；。！？!?;]+[；。！？!?;]?',paragraph)
+    i=0
+    while i<len(sentences):
+        line=sentences[i]
+        if i+1<len(sentences) and body.getlength(line+sentences[i+1])<=766:
+            line+=sentences[i+1]
+            i+=1
         rows.append((line,body,ink,y))
-        y+=35
-    y+=16
+        y+=28
+        i+=1
+    y+=12
 width=max(850,round(max(font.getlength(line) for line,font,_,_ in rows))+84)
-height=y+24
+height=y+12
 canvas=Image.new('RGB',(width,height),background)
 # A global palette avoids flashing colors between frames.
 palette=Image.new('P',(1,1))
@@ -50,7 +57,7 @@ with output.open('wb') as stream:
     for line,font,color,y in rows:
         for j in range(1,len(line)+1):
             draw=ImageDraw.Draw(canvas)
-            draw.rectangle((0,y,width-1,y+34),fill=background)
+            draw.rectangle((0,y,width-1,y+font.size+4),fill=background)
             draw.text((42,y),line[:j],font=font,fill=color,anchor='lt')
             current=indexed(canvas)
             bbox=ImageChops.difference(current,previous).getbbox()
@@ -72,4 +79,5 @@ with Image.open(output) as gif:
     gif.seek(gif.n_frames-1)
     assert ImageChops.difference(gif.convert('RGB'),previous.convert('RGB')).getbbox() is None
 assert ''.join(line for line,_,_,_ in rows[2:])==''.join(paragraphs)
+assert all(font.getlength(line) <= width-84 for line,font,_,_ in rows)
 print(f'Validated {frames} cumulative GIF frames; {width}×{height}; {output.stat().st_size//1024} KB; plays once.')
